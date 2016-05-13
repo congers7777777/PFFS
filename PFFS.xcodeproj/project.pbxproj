@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31D05F41CE35BCC00AB0F82 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D05F31CE35BCC00AB0F82 /* Player.swift */; };
 		B34C02421C91E5A40077EEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02411C91E5A40077EEFA /* AppDelegate.swift */; };
 		B34C02441C91E5A40077EEFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02431C91E5A40077EEFA /* ViewController.swift */; };
 		B34C02471C91E5A40077EEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34C02451C91E5A40077EEFA /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		B34C024C1C91E5A40077EEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34C024A1C91E5A40077EEFA /* LaunchScreen.storyboard */; };
 		B34C02571C91E5A40077EEFA /* PFFSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02561C91E5A40077EEFA /* PFFSTests.swift */; };
 		B34C02621C91E5A40077EEFA /* PFFSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02611C91E5A40077EEFA /* PFFSUITests.swift */; };
+		B381EC9D1CE10EEB008A2372 /* BAAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC901CE10EEB008A2372 /* BAAClient.m */; };
+		B381EC9E1CE10EEB008A2372 /* BAAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC921CE10EEB008A2372 /* BAAFile.m */; };
+		B381EC9F1CE10EEB008A2372 /* BAAGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC941CE10EEB008A2372 /* BAAGlobals.m */; };
+		B381ECA01CE10EEB008A2372 /* BAAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC961CE10EEB008A2372 /* BAAMutableURLRequest.m */; };
+		B381ECA11CE10EEB008A2372 /* BAAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC981CE10EEB008A2372 /* BAAObject.m */; };
+		B381ECA21CE10EEB008A2372 /* BaasBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC9A1CE10EEB008A2372 /* BaasBox.m */; };
+		B381ECA31CE10EEB008A2372 /* BAAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC9C1CE10EEB008A2372 /* BAAUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B31D05F31CE35BCC00AB0F82 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B34C023E1C91E5A40077EEFA /* PFFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34C02411C91E5A40077EEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B34C02431C91E5A40077EEFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,21 @@
 		B34C025D1C91E5A40077EEFA /* PFFSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PFFSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34C02611C91E5A40077EEFA /* PFFSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFSUITests.swift; sourceTree = "<group>"; };
 		B34C02631C91E5A40077EEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B381EC8E1CE10EEB008A2372 /* PFFS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PFFS-Bridging-Header.h"; sourceTree = "<group>"; };
+		B381EC8F1CE10EEB008A2372 /* BAAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAClient.h; sourceTree = "<group>"; };
+		B381EC901CE10EEB008A2372 /* BAAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAClient.m; sourceTree = "<group>"; };
+		B381EC911CE10EEB008A2372 /* BAAFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAFile.h; sourceTree = "<group>"; };
+		B381EC921CE10EEB008A2372 /* BAAFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAFile.m; sourceTree = "<group>"; };
+		B381EC931CE10EEB008A2372 /* BAAGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAGlobals.h; sourceTree = "<group>"; };
+		B381EC941CE10EEB008A2372 /* BAAGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAGlobals.m; sourceTree = "<group>"; };
+		B381EC951CE10EEB008A2372 /* BAAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAMutableURLRequest.h; sourceTree = "<group>"; };
+		B381EC961CE10EEB008A2372 /* BAAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAMutableURLRequest.m; sourceTree = "<group>"; };
+		B381EC971CE10EEB008A2372 /* BAAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAObject.h; sourceTree = "<group>"; };
+		B381EC981CE10EEB008A2372 /* BAAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAObject.m; sourceTree = "<group>"; };
+		B381EC991CE10EEB008A2372 /* BaasBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaasBox.h; sourceTree = "<group>"; };
+		B381EC9A1CE10EEB008A2372 /* BaasBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaasBox.m; sourceTree = "<group>"; };
+		B381EC9B1CE10EEB008A2372 /* BAAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAUser.h; sourceTree = "<group>"; };
+		B381EC9C1CE10EEB008A2372 /* BAAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,21 @@
 				B34C02551C91E5A40077EEFA /* PFFSTests */,
 				B34C02601C91E5A40077EEFA /* PFFSUITests */,
 				B34C023F1C91E5A40077EEFA /* Products */,
+				B381EC8F1CE10EEB008A2372 /* BAAClient.h */,
+				B381EC901CE10EEB008A2372 /* BAAClient.m */,
+				B381EC911CE10EEB008A2372 /* BAAFile.h */,
+				B381EC921CE10EEB008A2372 /* BAAFile.m */,
+				B381EC931CE10EEB008A2372 /* BAAGlobals.h */,
+				B381EC941CE10EEB008A2372 /* BAAGlobals.m */,
+				B381EC951CE10EEB008A2372 /* BAAMutableURLRequest.h */,
+				B381EC961CE10EEB008A2372 /* BAAMutableURLRequest.m */,
+				B381EC971CE10EEB008A2372 /* BAAObject.h */,
+				B381EC981CE10EEB008A2372 /* BAAObject.m */,
+				B381EC991CE10EEB008A2372 /* BaasBox.h */,
+				B381EC9A1CE10EEB008A2372 /* BaasBox.m */,
+				B381EC9B1CE10EEB008A2372 /* BAAUser.h */,
+				B381EC9C1CE10EEB008A2372 /* BAAUser.m */,
+				B381EC8E1CE10EEB008A2372 /* PFFS-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +139,7 @@
 				B34C02411C91E5A40077EEFA /* AppDelegate.swift */,
 				B34C02431C91E5A40077EEFA /* ViewController.swift */,
 				B34C02451C91E5A40077EEFA /* Main.storyboard */,
+				B31D05F31CE35BCC00AB0F82 /* Player.swift */,
 				B34C02481C91E5A40077EEFA /* Assets.xcassets */,
 				B34C024A1C91E5A40077EEFA /* LaunchScreen.storyboard */,
 				B34C024D1C91E5A40077EEFA /* Info.plist */,
@@ -257,6 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B34C02441C91E5A40077EEFA /* ViewController.swift in Sources */,
+				B381ECA11CE10EEB008A2372 /* BAAObject.m in Sources */,
+				B381EC9D1CE10EEB008A2372 /* BAAClient.m in Sources */,
+				B381EC9E1CE10EEB008A2372 /* BAAFile.m in Sources */,
+				B381EC9F1CE10EEB008A2372 /* BAAGlobals.m in Sources */,
+				B381ECA31CE10EEB008A2372 /* BAAUser.m in Sources */,
+				B381ECA01CE10EEB008A2372 /* BAAMutableURLRequest.m in Sources */,
+				B381ECA21CE10EEB008A2372 /* BaasBox.m in Sources */,
+				B31D05F41CE35BCC00AB0F82 /* Player.swift in Sources */,
 				B34C02421C91E5A40077EEFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PFFS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.PFFS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PFFS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +461,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PFFS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.PFFS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PFFS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +537,7 @@
 				B34C02681C91E5A40077EEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B34C02691C91E5A40077EEFA /* Build configuration list for PBXNativeTarget "PFFSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +546,7 @@
 				B34C026B1C91E5A40077EEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B34C026C1C91E5A40077EEFA /* Build configuration list for PBXNativeTarget "PFFSUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +555,7 @@
 				B34C026E1C91E5A40077EEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

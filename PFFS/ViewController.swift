@@ -4,7 +4,9 @@
 //
 //  Created by connor on 3/10/16.
 //  Copyright © 2016 Connor. All rights reserved.
-//
+//  Connor Phillips
+//  3/10/16
+//  A fantasy football app that provides weekly rankings of players (QBs, RBs, WRs, TEs, D/ST) for the user.
 
 import UIKit
 
