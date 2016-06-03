@@ -12,18 +12,19 @@ class Player: BAAObject {
     var name: String
     var team: String
     var bio: String
+    var ranking: Int
     
     override init(dictionary: [NSObject : AnyObject]!) {
-        self.name = dictionary["name"]! as! String
-        self.team = dictionary["team"]! as! String
-        self.bio = dictionary["description"]! as! String
-        
+        self.name = dictionary["Name"]! as! String
+        self.team = dictionary["Team"]! as! String
+        self.bio = dictionary["Description"]! as! String
+        self.ranking = dictionary["Ranking"]! as! Int
         super.init(dictionary: dictionary)
         
     }
     
     override func collectionName() -> String! {
-        return "document/bw-pffs"
+        return "document/PFFS-QB"
     }
     
 

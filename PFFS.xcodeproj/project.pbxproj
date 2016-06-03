@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B303FAB31CEA2FA1001BD7C1 /* QB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B303FAB21CEA2FA1001BD7C1 /* QB.swift */; };
 		B31D05F41CE35BCC00AB0F82 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D05F31CE35BCC00AB0F82 /* Player.swift */; };
 		B34C02421C91E5A40077EEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02411C91E5A40077EEFA /* AppDelegate.swift */; };
 		B34C02441C91E5A40077EEFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02431C91E5A40077EEFA /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		B34C024C1C91E5A40077EEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34C024A1C91E5A40077EEFA /* LaunchScreen.storyboard */; };
 		B34C02571C91E5A40077EEFA /* PFFSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02561C91E5A40077EEFA /* PFFSTests.swift */; };
 		B34C02621C91E5A40077EEFA /* PFFSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C02611C91E5A40077EEFA /* PFFSUITests.swift */; };
+		B36DAE101CF5FA990050FDE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DAE0F1CF5FA990050FDE6 /* LoginViewController.swift */; };
+		B36F14161CF76963003B85F7 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36F14151CF76963003B85F7 /* PlayerViewController.swift */; };
 		B381EC9D1CE10EEB008A2372 /* BAAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC901CE10EEB008A2372 /* BAAClient.m */; };
 		B381EC9E1CE10EEB008A2372 /* BAAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC921CE10EEB008A2372 /* BAAFile.m */; };
 		B381EC9F1CE10EEB008A2372 /* BAAGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC941CE10EEB008A2372 /* BAAGlobals.m */; };
@@ -22,6 +25,11 @@
 		B381ECA11CE10EEB008A2372 /* BAAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC981CE10EEB008A2372 /* BAAObject.m */; };
 		B381ECA21CE10EEB008A2372 /* BaasBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC9A1CE10EEB008A2372 /* BaasBox.m */; };
 		B381ECA31CE10EEB008A2372 /* BAAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B381EC9C1CE10EEB008A2372 /* BAAUser.m */; };
+		B38405871CEB8A7700A7BCCD /* RB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38405861CEB8A7700A7BCCD /* RB.swift */; };
+		B38405891CEB8A9A00A7BCCD /* WR.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38405881CEB8A9A00A7BCCD /* WR.swift */; };
+		B384058B1CEB8AB100A7BCCD /* TE.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384058A1CEB8AB100A7BCCD /* TE.swift */; };
+		B384058D1CEB8CAF00A7BCCD /* QBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B384058C1CEB8CAF00A7BCCD /* QBTableViewController.swift */; };
+		B3E9B5641D01CEDB000315C0 /* RBTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E9B5631D01CEDB000315C0 /* RBTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B303FAB21CEA2FA1001BD7C1 /* QB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QB.swift; sourceTree = "<group>"; };
 		B31D05F31CE35BCC00AB0F82 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B34C023E1C91E5A40077EEFA /* PFFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34C02411C91E5A40077EEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +65,8 @@
 		B34C025D1C91E5A40077EEFA /* PFFSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PFFSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34C02611C91E5A40077EEFA /* PFFSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFSUITests.swift; sourceTree = "<group>"; };
 		B34C02631C91E5A40077EEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36DAE0F1CF5FA990050FDE6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B36F14151CF76963003B85F7 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		B381EC8E1CE10EEB008A2372 /* PFFS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PFFS-Bridging-Header.h"; sourceTree = "<group>"; };
 		B381EC8F1CE10EEB008A2372 /* BAAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAClient.h; sourceTree = "<group>"; };
 		B381EC901CE10EEB008A2372 /* BAAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAClient.m; sourceTree = "<group>"; };
@@ -71,6 +82,11 @@
 		B381EC9A1CE10EEB008A2372 /* BaasBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaasBox.m; sourceTree = "<group>"; };
 		B381EC9B1CE10EEB008A2372 /* BAAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAUser.h; sourceTree = "<group>"; };
 		B381EC9C1CE10EEB008A2372 /* BAAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAAUser.m; sourceTree = "<group>"; };
+		B38405861CEB8A7700A7BCCD /* RB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RB.swift; sourceTree = "<group>"; };
+		B38405881CEB8A9A00A7BCCD /* WR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WR.swift; sourceTree = "<group>"; };
+		B384058A1CEB8AB100A7BCCD /* TE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TE.swift; sourceTree = "<group>"; };
+		B384058C1CEB8CAF00A7BCCD /* QBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QBTableViewController.swift; sourceTree = "<group>"; };
+		B3E9B5631D01CEDB000315C0 /* RBTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,10 @@
 		B34C02351C91E5A40077EEFA = {
 			isa = PBXGroup;
 			children = (
+				B303FAB21CEA2FA1001BD7C1 /* QB.swift */,
+				B38405861CEB8A7700A7BCCD /* RB.swift */,
+				B38405881CEB8A9A00A7BCCD /* WR.swift */,
+				B384058A1CEB8AB100A7BCCD /* TE.swift */,
 				B34C02401C91E5A40077EEFA /* PFFS */,
 				B34C02551C91E5A40077EEFA /* PFFSTests */,
 				B34C02601C91E5A40077EEFA /* PFFSUITests */,
@@ -136,9 +156,13 @@
 		B34C02401C91E5A40077EEFA /* PFFS */ = {
 			isa = PBXGroup;
 			children = (
+				B36DAE0F1CF5FA990050FDE6 /* LoginViewController.swift */,
 				B34C02411C91E5A40077EEFA /* AppDelegate.swift */,
 				B34C02431C91E5A40077EEFA /* ViewController.swift */,
 				B34C02451C91E5A40077EEFA /* Main.storyboard */,
+				B36F14151CF76963003B85F7 /* PlayerViewController.swift */,
+				B384058C1CEB8CAF00A7BCCD /* QBTableViewController.swift */,
+				B3E9B5631D01CEDB000315C0 /* RBTableTableViewController.swift */,
 				B31D05F31CE35BCC00AB0F82 /* Player.swift */,
 				B34C02481C91E5A40077EEFA /* Assets.xcassets */,
 				B34C024A1C91E5A40077EEFA /* LaunchScreen.storyboard */,
@@ -297,15 +321,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B34C02441C91E5A40077EEFA /* ViewController.swift in Sources */,
+				B38405891CEB8A9A00A7BCCD /* WR.swift in Sources */,
 				B381ECA11CE10EEB008A2372 /* BAAObject.m in Sources */,
+				B384058D1CEB8CAF00A7BCCD /* QBTableViewController.swift in Sources */,
 				B381EC9D1CE10EEB008A2372 /* BAAClient.m in Sources */,
+				B384058B1CEB8AB100A7BCCD /* TE.swift in Sources */,
 				B381EC9E1CE10EEB008A2372 /* BAAFile.m in Sources */,
 				B381EC9F1CE10EEB008A2372 /* BAAGlobals.m in Sources */,
 				B381ECA31CE10EEB008A2372 /* BAAUser.m in Sources */,
+				B303FAB31CEA2FA1001BD7C1 /* QB.swift in Sources */,
 				B381ECA01CE10EEB008A2372 /* BAAMutableURLRequest.m in Sources */,
 				B381ECA21CE10EEB008A2372 /* BaasBox.m in Sources */,
+				B36DAE101CF5FA990050FDE6 /* LoginViewController.swift in Sources */,
 				B31D05F41CE35BCC00AB0F82 /* Player.swift in Sources */,
 				B34C02421C91E5A40077EEFA /* AppDelegate.swift in Sources */,
+				B38405871CEB8A7700A7BCCD /* RB.swift in Sources */,
+				B3E9B5641D01CEDB000315C0 /* RBTableTableViewController.swift in Sources */,
+				B36F14161CF76963003B85F7 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
